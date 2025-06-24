@@ -99,7 +99,7 @@ print("il fattoriale di 6 è {}".format(factorial(6)))
 """
 """
 7. Scrivere una funzione che prende in input due liste e ritorna True se le due liste hanno almeno un
-elemento in comune
+elemento in comun
 """
 """
 def elemcom(a,b):
@@ -115,6 +115,7 @@ print("le liste sono {}".format(elemcom(a,b)))
 8. Definire una funzione che prende in input una lista di numeri interi in [0, 9] e ritorna una lista di
 stringhe, corrispondenti ai numeri scritti in Italiano, es. [1,0,7,9,8] ->["uno","zero","sette","nove","otto"]
 """
+"""
 def convertitore(a):
     b=[]
     dizionario={1:"uno",2:"due",3:"tre",4:"quattro",5:"cinque",6:"sei",7:"sette",8:"otto",9:"nove"}
@@ -123,3 +124,4 @@ def convertitore(a):
     return b
 a=[1,2,4,5,6,2]
 print("lista convertita = {}".format(convertitore(a)))
+"""
