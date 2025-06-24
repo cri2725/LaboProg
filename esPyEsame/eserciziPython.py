@@ -5,7 +5,7 @@ che sommi tutti gli elementi di una lista.
 def sum_list(my_list):
     if my_list == []:
         return None
-    somma= 0
+    somma =0
     for item in my_list:
         somma+=item
     return somma
