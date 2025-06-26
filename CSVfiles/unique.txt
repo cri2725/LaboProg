@@ -3,5 +3,3 @@ ciaonee
 bob
 boba
 bob ciao
-bob
-ciaonee 
